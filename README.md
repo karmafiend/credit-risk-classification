@@ -18,18 +18,18 @@ The loan_status target variable was used to predict "loan_status" when evaluatin
 # Model Development Process:
 
 This was a multi-step analysis process to build, evaluate and use the supervised machine learning model, specifically:
-	* Load Python / machine learning dependences: Tap into relevant analysis code libraries
-	* Load the "lending_data.csv" historical borrower data set and build a Pandas dataframe to preview dataset content (specifically to identify the labels and target variable for analysis)
-	* Separate the labels (i.e. "loan_status" target variable) from the features (the remaining dataset columns ex: loan_status, debt to income, etc.)
-	* Split the data into training and testing datasets in order to build & run the model testing it for predictive accuracy. Specific reasons for doing so include: 
-		* Providing a training set of data to be tested against a set apart test data as the basis for building the Logistic Regression analysis model
-		* Doing so prevents overfitting of the data which negates the predictive power of the Logistic Regression model. If the model performs better on the training set than the test set then there is the 			potential for overfitting within the model created
-		* The test set helps in assessing the bias-variance tradeoff. A model with high bias might underfit the data, while a model with high variance might overfit
-	* Model Training: Created a Logistic Regression Model enabling predictive analysis of loan risk potential for borrowers
-		* Fitted the logistic regression model using the training data
-		* Saved the predictions on the test data labels using testing feature data and the fitted model; scored the model; made predictions
-	* Prediction and evaluation: Then evaluated the Logistic Regression model's performance by creating a Confusion Matrix and generating an accuracy score
-		* Displayed the Confusion Matrix and Accuracy Scores for model performance analysis
+* Load Python / machine learning dependences: Tap into relevant analysis code libraries
+* Load the "lending_data.csv" historical borrower data set and build a Pandas dataframe to preview dataset content (specifically to identify the labels and target variable for analysis)
+* Separate the labels (i.e. "loan_status" target variable) from the features (the remaining dataset columns ex: loan_status, debt to income, etc.)
+* Split the data into training and testing datasets in order to build & run the model testing it for predictive accuracy. Specific reasons for doing so include: 
+	* Providing a training set of data to be tested against a set apart test data as the basis for building the Logistic Regression analysis model
+	* Doing so prevents overfitting of the data which negates the predictive power of the Logistic Regression model. If the model performs better on the training set than the test set then there is the 			potential for overfitting within the model created
+	* The test set helps in assessing the bias-variance tradeoff. A model with high bias might underfit the data, while a model with high variance might overfit
+* Model Training: Created a Logistic Regression Model enabling predictive analysis of loan risk potential for borrowers
+	* Fitted the logistic regression model using the training data
+	* Saved the predictions on the test data labels using testing feature data and the fitted model; scored the model; made predictions
+* Prediction and evaluation: Then evaluated the Logistic Regression model's performance by creating a Confusion Matrix and generating an accuracy score
+	* Displayed the Confusion Matrix and Accuracy Scores for model performance analysis
 
 # Notes on Methods Used: 
 
