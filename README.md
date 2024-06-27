@@ -50,3 +50,6 @@ Overall the macro and weighted averages for both classes indicate the model is b
 	* Accuracy Score: Measures how often is the model correct in interpreting and predicting 	results (in this case, how likely are loan applicants to default). With an overall 99% 		accuracy score, this model is correct 99% of the time at predicting the overall 		likelihood a loan will be repaid
 
 However, when examined more closely by classes, 0=fully paid and 1=charged off borrowers, the model's lower accuracy levels at predicting those who will default (Class 1=charged off) could introduce significant risk for a financial institution since the model struggles to predict bad loans at the same accuracy level it does for those who will repay their loans. Use of the model should thus be used judiciously and most likely compared with other models, ones that may be more accurate at predicting loan defaults
+
+# Resources used for building supervised machine learning project include:
+Primary sources used for this exercise were class instruction and class work along with extensive usage of online how-to content sources, specifically: Google Search, StackOverflow, W3C Schools, and Geeks for Geeks content. ChatGPT and Xpress Assistant used for guidance on reading and translating analysis model results.
